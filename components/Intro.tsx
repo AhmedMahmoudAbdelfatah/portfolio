@@ -84,7 +84,7 @@ const Intro = () => {
         </Link>
         <a
           className="btn bg-white px-7 py-3 flex items-center dark:bg-white/10"
-          href="/documents/CV.pdf"
+          href="/documents/Ahmed Mahmoud Resume.pdf"
           download={true}
         >
           Download CV <HiDownload />
