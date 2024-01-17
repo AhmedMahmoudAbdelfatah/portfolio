@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  @apply bg-gray-50 text-gray-950 relative pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90;
+}
+
+body::before {
+  content: "";
+
+  @apply bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394];
+}
+
+body::after {
+  content: "";
+
+  @apply bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263];
+}
+
+.nav {
+  @apply fixed top-0 left-1/2 h-[5.25rem] w-full py-1 rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-sm sm:top-6 sm:h-14 sm:w-[36rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-70;
+}
+
+.ul {
+  @apply flex w-[22rem] flex-wrap items-center justify-center text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-2 h-full;
+}
+
+.link {
+  @apply hover:text-gray-950 transition px-4 py-1 relative dark:text-gray-500 dark:hover:text-gray-200 select-none;
+}
+
+.btn {
+  @apply outline-none focus:scale-110 hover:scale-110 active:scale-100 transition-transform select-none cursor-pointer flex  gap-2 items-center justify-center rounded-full border border-black/15;
+}
+
+h2 {
+  @apply text-2xl font-medium capitalize mb-8 text-center;
+}
