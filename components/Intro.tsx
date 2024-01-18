@@ -70,7 +70,7 @@ const Intro = () => {
           delay: 0.1
         }}
       >
-        <Link href="#contact"
+        <Link href="#contact" title="contact me"
           className="btn group bg-gray-900 text-white px-7 py-3"
           onClick={(() => {
             setActive("Contact")
@@ -85,6 +85,7 @@ const Intro = () => {
         <a
           className="btn bg-white px-7 py-3 flex items-center dark:bg-white/10"
           href="/documents/Ahmed Mahmoud Resume.pdf"
+          title="CV"
           download={true}
         >
           Download CV <HiDownload />
@@ -92,6 +93,7 @@ const Intro = () => {
         <a
           className="btn bg-white p-4 text-lg dark:bg-white/10"
           href="https://www.linkedin.com/in/ahmedmahmoudabdelfatah"
+          title="linkedin"
           target="_blank"
         >
           <BsLinkedin />
@@ -99,6 +101,7 @@ const Intro = () => {
         <a
           className="btn bg-white p-4 text-[1.25rem] dark:bg-white/10"
           href="https://github.com/AhmedMahmoudAbdelfatah"
+          title="github"
           target="_blank"
         >
           <FaGithubSquare />
@@ -106,6 +109,7 @@ const Intro = () => {
         <a
           className="btn bg-white p-4 text-[1.25rem] dark:bg-white/10"
           href="https://api.whatsapp.com/send?phone=02001091325300"
+          title="whats"
           target="_blank"
         >
           <FaWhatsapp />

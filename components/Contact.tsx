@@ -29,7 +29,7 @@ const Contact = () => {
         if (error) toast.error(error);
         else toast.success("Email sent successfully!");
       }}>
-        <input type='email' name="email" required spellCheck="false" maxLength={500} className='h-14 px-4 rounded-lg border border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' placeholder='Email'/>
+        <input type='email' name="email" required autoComplete='off' spellCheck="false" maxLength={500} className='h-14 px-4 rounded-lg border border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' placeholder='Email'/>
         <textarea required maxLength={5000} name="message" spellCheck="false" className='h-52 my-3 p-4 rounded-lg border border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' placeholder='Message'/>
         <SubmitButton /> 
       </form>
