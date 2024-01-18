@@ -38,7 +38,7 @@ const Intro = () => {
           </motion.div>
           
           <motion.span
-            className="text-4xl absolute bottom-0 right-0"
+            className="absolute text-xl bottom-1 right-1 sm:bottom-0 sm:right-0 sm:text-4xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -105,7 +105,7 @@ const Intro = () => {
         </a>
         <a
           className="btn bg-white p-4 text-[1.25rem] dark:bg-white/10"
-          href="https://api.whatsapp.com/send?phone=01091325300"
+          href="https://api.whatsapp.com/send?phone=02001091325300"
           target="_blank"
         >
           <FaWhatsapp />

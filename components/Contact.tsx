@@ -20,7 +20,7 @@ const Contact = () => {
       transition={{ duration: 1 }}
     >
       <h2 className='mb-2'>Contact Me</h2>
-      <p className='text-gray-700 dark:text-white/80'>Please contatc me directly at{" "}
+      <p className='text-gray-700 dark:text-white/80'>Please contact me directly at{" "}
         <a href='mailto:ahmedmahmoud1999Y@gmail.com' className='underline'>ahmedmahmoud1999Y@gmail.com</a> or though this form.
       </p>
 

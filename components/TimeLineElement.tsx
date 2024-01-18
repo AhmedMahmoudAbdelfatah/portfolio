@@ -13,7 +13,7 @@ export const TimeLineElement = (props: TimeLineElementPropsType) => {
   const isLight = theme === "light";
   
   return (
-    <div ref={ref} className="vertical-timeline-element">
+    <div ref={ref} className="vertical-timeline-element absolute">
       <VerticalTimelineElement
         contentStyle={{
           backgroundColor: isLight ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",

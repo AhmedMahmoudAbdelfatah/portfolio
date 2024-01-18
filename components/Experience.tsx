@@ -11,7 +11,7 @@ const Experience = () => {
   const { ref } = useCustomInView("Experience", 0.3);
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28">
+    <section id="experience" ref={ref} className="scroll-mt-28 overflow-hidden">
       <h2>Experience</h2>
       <VerticalTimeline lineColor="">
         {
