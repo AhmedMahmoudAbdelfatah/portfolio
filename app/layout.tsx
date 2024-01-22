@@ -13,6 +13,13 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Portfolio',
   description: 'This is a personal portfolio showing Ahmed Mahmoud skills as a front-end developer',
+  openGraph: {
+    images: "images/Ahmed Portrait.jpg",
+    type: "website",
+    title: "Portrait",
+    url: 'https://ahmedmahmoud-portfolio.vercel.app',
+    siteName: 'Portfolio',
+  }
 }
 
 export default function RootLayout({
