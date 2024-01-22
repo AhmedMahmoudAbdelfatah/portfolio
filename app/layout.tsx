@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://ahmedmahmoud-portfolio.vercel.app/images/ahmed-portrait.jpg",
-        width: 800,
+        width: 1200,
         height: 600
       }
     ],
