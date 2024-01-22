@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Portfolio',
   description: 'This is a personal portfolio showing Ahmed Mahmoud skills as a front-end developer',
   openGraph: {
-    images: "images/Ahmed Portrait.jpg",
+    images: "https://ahmedmahmoud-portfolio.vercel.app/images/ahmed-portrait.jpg",
     type: "website",
     title: "Portrait",
     url: 'https://ahmedmahmoud-portfolio.vercel.app',
