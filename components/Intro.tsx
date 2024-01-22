@@ -27,7 +27,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src="/images/Ahmed Portrait.jpg"
+              src="/images/ahmed-portrait.jpg"
               alt="persnal image"
               width={192}
               height={192}

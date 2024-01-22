@@ -16,9 +16,8 @@ export const metadata: Metadata = {
   openGraph: {
     images: "https://ahmedmahmoud-portfolio.vercel.app/images/ahmed-portrait.jpg",
     type: "website",
-    title: "Portrait",
+    title: "Portfolio",
     url: 'https://ahmedmahmoud-portfolio.vercel.app',
-    siteName: 'Portfolio',
   }
 }
 
