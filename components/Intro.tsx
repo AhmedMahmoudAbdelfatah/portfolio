@@ -43,9 +43,9 @@ const Intro = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               type: "spring",
-              stiffness: 125,
+              stiffness: 100,
               delay: 0.1,
-              duration: 0.7,
+              duration: 0.6,
             }}
           >
             👋

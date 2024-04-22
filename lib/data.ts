@@ -43,11 +43,19 @@ export const experiencesData = [
   },
   {
     title: "Front-end Developer",
+    location: "Sheriax",
+    description:
+      "I worked for two months in an agile work environment using scrum methodology and Trello task management, Developed the Sheraix website from scratch on a new design (Sheriax website is the main website of Sheriax company), Created a website for the Chatiko app (an AI assistant app available on the Google Play Store). I used Nextjs in the two projects",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+  {
+    title: "Front-end Developer",
     location: "Freelancing",
     description:
       "I am currently a front-end developer working as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2024 - present",
   },
 ] as const;
 
