@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { LiaUniversitySolid } from "react-icons/lia";
 import SharePrompts from "@/public/images/share-prompts.png";
 import Prezophopia from "@/public/images/prezophopia.png";
 import Note from "@/public/images/note.png";
@@ -39,7 +40,7 @@ export const experiencesData = [
     description:
       "I finished after 30 days of studying the basics of web development and working on an e-commerce app with angular and node.js.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022",
+    date: "Sep-2022 - Oct-2022",
   },
   {
     title: "Front-end Developer",
@@ -47,7 +48,7 @@ export const experiencesData = [
     description:
       "I worked for two months in an agile work environment using scrum methodology and Trello task management, Developed the Sheraix website from scratch on a new design (Sheriax website is the main website of Sheriax company), Created a website for the Chatiko app (an AI assistant app available on the Google Play Store). I used Nextjs in the two projects",
     icon: React.createElement(CgWorkAlt),
-    date: "2024",
+    date: "Feb-2024 - Apr-2024",
   },
   {
     title: "Front-end Developer",
@@ -55,7 +56,15 @@ export const experiencesData = [
     description:
       "I am currently a front-end developer working as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2024 - present",
+    date: "Apr-2024 - present",
+  },
+  {
+    title: "Teaching Assistant",
+    location: "Fayoum University",
+    description:
+      "I am working as a teaching assistant in the Computer and Systems Department.",
+    icon: React.createElement(LiaUniversitySolid),
+    date: "April-2024 - present",
   },
 ] as const;
 
