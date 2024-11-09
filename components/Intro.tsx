@@ -1,21 +1,23 @@
-"use client"
-import { useActive } from "@/hook/useActive"
-import { useCustomInView } from "@/hook/useCustomInView"
-import { motion } from "framer-motion"
-import Image from "next/image"
-import Link from "next/link"
-import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
-import { FaGithubSquare, FaWhatsapp } from "react-icons/fa"
-import { HiDownload } from 'react-icons/hi'
-
-
+"use client";
+import { useActive } from "@/hook/useActive";
+import { useCustomInView } from "@/hook/useCustomInView";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare, FaWhatsapp } from "react-icons/fa";
+import { HiDownload } from "react-icons/hi";
 
 const Intro = () => {
   const { ref } = useCustomInView("Home", 1);
   const { setActive, setTimeOfLastClick } = useActive();
 
   return (
-    <section id="home" className="max-w-[45rem] text-center scroll-mt-96" ref={ref}>
+    <section
+      id="home"
+      className="max-w-[45rem] text-center scroll-mt-96"
+      ref={ref}
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -23,7 +25,7 @@ const Intro = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               type: "tween",
-              duration: 0.2
+              duration: 0.2,
             }}
           >
             <Image
@@ -36,7 +38,7 @@ const Intro = () => {
               className="w-24 aspect-square sm:w-32 rounded-full border-[0.35rem] border-white object-cover object-top"
             />
           </motion.div>
-          
+
           <motion.span
             className="absolute text-xl bottom-1 right-1 sm:bottom-0 sm:right-0 sm:text-4xl"
             initial={{ opacity: 0, scale: 0 }}
@@ -57,30 +59,32 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Ahmed.</span> I&apos;m a{" "}
-        <span className="font-bold">junior front-end developer</span> I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I&apos;m Ahmed,</span> a{" "}
+        <span className="font-bold">
+          front-end developer with over six months of experience.
+        </span>{" "}
+        I enjoy building <span className="italic">sites & apps</span>. My focus
+        is <span className="underline">React (Next.js)</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
-          delay: 0.1
+          delay: 0.1,
         }}
       >
-        <Link href="#contact" title="contact me"
+        <Link
+          href="#contact"
+          title="contact me"
           className="btn group bg-gray-900 text-white px-7 py-3"
-          onClick={(() => {
-            setActive("Contact")
+          onClick={() => {
+            setActive("Contact");
             setTimeOfLastClick(Date.now());
-          })}
+          }}
         >
           Contact me here
-          <BsArrowRight
-            className="opacity-70 group-hover:-rotate-45 transition-all"
-          />
+          <BsArrowRight className="opacity-70 group-hover:-rotate-45 transition-all" />
         </Link>
         <a
           className="btn bg-white px-7 py-3 flex items-center dark:bg-white/10"
@@ -116,7 +120,7 @@ const Intro = () => {
         </a>
       </motion.div>
     </section>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

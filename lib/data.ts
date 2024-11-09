@@ -3,8 +3,12 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LiaUniversitySolid } from "react-icons/lia";
 import SharePrompts from "@/public/images/share-prompts.png";
-import Prezophopia from "@/public/images/prezophopia.png";
 import Note from "@/public/images/note.png";
+import Prezophopia from "@/public/images/prezophopia.png";
+import Thiqa from "@/public/images/thiqa.png";
+import BestClinic from "@/public/images/best-clinic.png";
+import Chatiko from "@/public/images/chatiko.png";
+import Sheriax from "@/public/images/sheriax.png";
 
 export const links = [
   {
@@ -54,47 +58,109 @@ export const experiencesData = [
     title: "Front-end Developer",
     location: "Freelancing",
     description:
-      "I am currently a front-end developer working as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
+      "I worked as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "Apr-2024 - present",
+    date: "Apr-2024 - Jul-2024",
   },
   {
-    title: "Teaching Assistant",
-    location: "Fayoum University",
+    title: "Front-end Developer",
+    location: "Booking From A To Z",
     description:
-      "I am working as a teaching assistant in the Computer and Systems Department.",
-    icon: React.createElement(LiaUniversitySolid),
-    date: "April-2024 - present",
+      "In my role at Booking from A to Z, I worked for over four months in an agile environment, following Scrum methodology. I developed the **Thiqa** and **Best Clinic** websites using **Next.js**, gaining extensive hands-on experience with agile practices, team collaboration, and advanced web development techniques. This experience strengthened my skills in delivering high-quality, scalable applications in dynamic settings.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jul-2024 - Nov-2024",
+  },
+  {
+    title: "Front-end Developer",
+    location: "Freelancing",
+    description:
+      "I am currently working as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "Nov-2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "Thiqa",
+    description:
+      "It is an advanced real estate platform for customers, agents, and companies, offering property listings, user-specific features, and industry insights. With options to buy or rent, Thiqa connects users with properties and professionals for a seamless experience. Feel free to visit the website.",
+    tags: [
+      "TypeScript",
+      "Nextjs",
+      "Tailwind CSS",
+      "Next-auth",
+      "React-forms",
+      "Zod",
+    ],
+    imageUrl: Thiqa,
+    github: "https://github.com/AhmedMahmoudAbdelfatah/thiqa",
+    live: "https://thiqa1.com/",
+  },
+  {
+    title: "Best Clinic",
+    description:
+      "It is a comprehensive and user-friendly website for medical clinics. It provides essential information about clinic services, booking options, blog articles, medical sheets, and contact details, delivering a seamless and accessible experience for users. Feel free to visit the website.",
+    tags: [
+      "TypeScript",
+      "Nextjs",
+      "Tailwind CSS",
+      "React-forms",
+      "Zod",
+      "React-player",
+    ],
+    imageUrl: BestClinic,
+    github: "https://github.com/AhmedMahmoudAbdelfatah/best-clinic",
+    live: "https://www.bestclinic24.com/",
+  },
+  {
+    title: "Sheriax",
+    description:
+      "This project is the main website for Sheriax, designed and developed during my internship to serve as the company's primary digital presence. The website showcases Sheriax’s services, values, and contact information, providing current and potential clients with a comprehensive overview of the company.",
+    tags: ["TypeScript", "Next.js", "Sass", "CSS", "framer-motion"],
+    imageUrl: Sheriax,
+    github: "https://github.com/AhmedMahmoudAbdelfatah/Sheriax-website",
+  },
+  {
+    title: "Chatiko",
+    description:
+      "It is a web-based extension of the existing Chatiko mobile app, designed to provide users with a seamless, AI-powered experience for various tasks. Built during my internship at Sheriax Company, this project allowed me to develop a dynamic, responsive platform that brings the Chatiko app’s capabilities to the web.",
+    tags: ["TypeScript", "Next.js", "Sass", "CSS", "framer-motion"],
+    imageUrl: Chatiko,
+    github: "https://github.com/AhmedMahmoudAbdelfatah/chatiko",
+  },
+  {
     title: "Share Prompts",
     description:
       "It is a web application that allows users to share their creative prompts and browse other users' prompts. Users can log in, create a post, view all posts and search them by username, tag, or prompt, update their posts later, and copy the prompt of any post to their clipboard.",
-    tags: ["TypeScript", "Next.js", "MongoDB", "Tailwind", "Next-Auth"],
+    tags: ["TypeScript", "Next.js", "MongoDB", "Tailwind CSS", "Next-Auth"],
     imageUrl: SharePrompts,
     github: "https://github.com/AhmedMahmoudAbdelfatah/share-prompt",
-    live: "https://share-prompt-sepia.vercel.app"
+    live: "https://share-prompt-sepia.vercel.app",
   },
   {
     title: "Prezophobia",
     description:
       "It is a social network website that helps its users to overcome glossophobia, which is the fear of public speaking. Users can do a lot of things on the website, such as posting, commenting, updating profile, and more.",
-    tags: [ "React", "React Query", "Axios", "Context API", "Font Awesome"],
+    tags: ["React", "React Query", "Axios", "Context API", "Font Awesome"],
     imageUrl: Prezophopia,
     github: "https://github.com/AhmedMahmoudAbdelfatah/prezophopia",
-    live: ""
+    live: "",
   },
   {
     title: "Note App",
     description:
       "It is a website that allows users to create notes with tags, title and markdown body. Users can delete or edit the notes after creating them. Users can also edit, delete or add new tags and it will automatically update all the tags in the notes.",
-    tags: ["React", "TypeScript", "React Bootstrap", "React Markdown", "React Select"],
+    tags: [
+      "React",
+      "TypeScript",
+      "React Bootstrap",
+      "React Markdown",
+      "React Select",
+    ],
     imageUrl: Note,
     github: "https://github.com/AhmedMahmoudAbdelfatah/note-app",
-    live: "https://note-vite.vercel.app"
+    live: "https://note-vite.vercel.app",
   },
 ] as const;
 
@@ -103,19 +169,19 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
+  "Reactjs",
+  "Nextjs",
   "Web Protocols",
   "Algorithms & Data structure",
   "OOP",
   "SOLID Principles",
-  "Tailwind",
+  "Tailwind CSS",
   "Bootstrap",
   "Styled-component",
   "Git & Github",
   "Design Patterns",
   "Redux",
+  "Zustand",
   "Sass",
   "Node.js",
-  "PL/SQL",
 ] as const;
