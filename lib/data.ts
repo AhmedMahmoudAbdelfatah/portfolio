@@ -120,6 +120,7 @@ export const projectsData = [
     tags: ["TypeScript", "Next.js", "Sass", "CSS", "framer-motion"],
     imageUrl: Sheriax,
     github: "https://github.com/AhmedMahmoudAbdelfatah/Sheriax-website",
+    live: "",
   },
   {
     title: "Chatiko",
@@ -128,6 +129,7 @@ export const projectsData = [
     tags: ["TypeScript", "Next.js", "Sass", "CSS", "framer-motion"],
     imageUrl: Chatiko,
     github: "https://github.com/AhmedMahmoudAbdelfatah/chatiko",
+    live: "",
   },
   {
     title: "Share Prompts",
