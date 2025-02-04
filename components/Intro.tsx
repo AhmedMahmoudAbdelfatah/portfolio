@@ -59,9 +59,10 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Ahmed,</span> a{" "}
-        <span className="font-bold">
-          front-end developer with over six months of experience.
+        <span className="font-bold">Hello, I&apos;m Ahmed, </span>
+        <span>
+          a <b>front-end developer</b> with over <strong>6 months</strong> of
+          experience.
         </span>{" "}
         I enjoy building <span className="italic">sites & apps</span>. My focus
         is <span className="underline">React (Next.js)</span>.

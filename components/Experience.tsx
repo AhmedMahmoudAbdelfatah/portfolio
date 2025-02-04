@@ -1,11 +1,10 @@
-"use client"
-import { useCustomInView } from "@/hook/useCustomInView"
+"use client";
+import { useCustomInView } from "@/hook/useCustomInView";
 import { experiencesData } from "@/lib/data";
 import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { TimeLineElement } from "./TimeLineElement";
-
 
 const Experience = () => {
   const { ref } = useCustomInView("Experience", 0.3);
@@ -15,15 +14,13 @@ const Experience = () => {
       <div className="overflow-hidden">
         <h2>Experience</h2>
         <VerticalTimeline lineColor="">
-          {
-            experiencesData.map((experience) => (
-              <TimeLineElement key={experience.title} {...experience} />
-            ))
-          }
+          {experiencesData.map((experience) => (
+            <TimeLineElement key={experience.date} {...experience} />
+          ))}
         </VerticalTimeline>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

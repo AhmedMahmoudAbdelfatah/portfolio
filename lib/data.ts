@@ -45,6 +45,15 @@ export const experiencesData = [
       "I finished after 30 days of studying the basics of web development and working on an e-commerce app with angular and node.js.",
     icon: React.createElement(CgWorkAlt),
     date: "Sep-2022 - Oct-2022",
+    teckStack: [
+      "Angular",
+      "TypeScript",
+      "Node.js",
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "Bootstrap",
+    ],
   },
   {
     title: "Front-end Developer",
@@ -53,6 +62,7 @@ export const experiencesData = [
       "I worked for two months in an agile work environment using scrum methodology and Trello task management, Developed the Sheraix website from scratch on a new design (Sheriax website is the main website of Sheriax company), Created a website for the Chatiko app (an AI assistant app available on the Google Play Store). I used Nextjs in the two projects",
     icon: React.createElement(CgWorkAlt),
     date: "Feb-2024 - Apr-2024",
+    teckStack: ["Next.js", "TypeScript", "Sass", "Framer Motion"],
   },
   {
     title: "Front-end Developer",
@@ -61,14 +71,30 @@ export const experiencesData = [
       "I worked as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "Apr-2024 - Jul-2024",
+    teckStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
   },
   {
     title: "Front-end Developer",
     location: "Booking From A To Z",
     description:
-      "In my role at Booking from A to Z, I worked for over four months in an agile environment, following Scrum methodology. I developed the **Thiqa** and **Best Clinic** websites using **Next.js**, gaining extensive hands-on experience with agile practices, team collaboration, and advanced web development techniques. This experience strengthened my skills in delivering high-quality, scalable applications in dynamic settings.",
+      "In my role at Booking from A to Z, I worked for over four months in an agile environment, following Scrum methodology. I developed the Thiqa and Best Clinic websites using Next.js, gaining extensive hands-on experience with agile practices, team collaboration, and advanced web development techniques. This experience strengthened my skills in delivering high-quality, scalable applications in dynamic settings.",
     icon: React.createElement(CgWorkAlt),
     date: "Jul-2024 - Nov-2024",
+    teckStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Hook Form",
+      "Zustand",
+      "ShadCN",
+      "Axios",
+      "Next-Intel",
+      "Next Auth",
+      "Framer Motion",
+      "React Leaflet",
+      "Zod",
+      "React Query",
+    ],
   },
   {
     title: "Front-end Developer",
@@ -77,6 +103,7 @@ export const experiencesData = [
       "I am currently working as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "Nov-2024 - Present",
+    teckStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
   },
 ] as const;
 
@@ -152,7 +179,7 @@ export const projectsData = [
   {
     title: "Note App",
     description:
-      "It is a website that allows users to create notes with tags, title and markdown body. Users can delete or edit the notes after creating them. Users can also edit, delete or add new tags and it will automatically update all the tags in the notes.",
+      "It is a website that allows users to create notes with teckStack, title and markdown body. Users can delete or edit the notes after creating them. Users can also edit, delete or add new teckStack and it will automatically update all the teckStack in the notes.",
     tags: [
       "React",
       "TypeScript",
@@ -167,23 +194,27 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "Reactjs",
   "Nextjs",
-  "Web Protocols",
+  "Next-Intel",
+  "Tailwind CSS",
+  "React Forms",
+  "Zod",
+  "Next Auth",
+  "Redux",
+  "Zustand",
+  "Sass",
+  "HTML5",
+  "CSS3",
   "Algorithms & Data structure",
   "OOP",
+  "Web Protocols",
   "SOLID Principles",
-  "Tailwind CSS",
   "Bootstrap",
   "Styled-component",
   "Git & Github",
   "Design Patterns",
-  "Redux",
-  "Zustand",
-  "Sass",
   "Node.js",
 ] as const;
