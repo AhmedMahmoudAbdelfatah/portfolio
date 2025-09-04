@@ -89,7 +89,7 @@ const Intro = () => {
         </Link>
         <a
           className="btn bg-white px-7 py-3 flex items-center dark:bg-white/10"
-          href="/documents/Ahmed Mahmoud Resume.pdf"
+          href="/documents/Ahmed Mahmoud-Frontend_Developer.pdf"
           title="CV"
           download={true}
         >
