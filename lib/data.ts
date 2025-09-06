@@ -189,21 +189,21 @@ export const projectsData = [
     github: "https://github.com/AhmedMahmoudAbdelfatah/prezophopia",
     live: "",
   },
-  {
-    title: "Note App",
-    description:
-      "It is a website that allows users to create notes with teckStack, title and markdown body. Users can delete or edit the notes after creating them. Users can also edit, delete or add new teckStack and it will automatically update all the teckStack in the notes.",
-    tags: [
-      "React",
-      "TypeScript",
-      "React Bootstrap",
-      "React Markdown",
-      "React Select",
-    ],
-    imageUrl: Note,
-    github: "https://github.com/AhmedMahmoudAbdelfatah/note-app",
-    live: "https://note-vite.vercel.app",
-  },
+  // {
+  //   title: "Note App",
+  //   description:
+  //     "It is a website that allows users to create notes with teckStack, title and markdown body. Users can delete or edit the notes after creating them. Users can also edit, delete or add new teckStack and it will automatically update all the teckStack in the notes.",
+  //   tags: [
+  //     "React",
+  //     "TypeScript",
+  //     "React Bootstrap",
+  //     "React Markdown",
+  //     "React Select",
+  //   ],
+  //   imageUrl: Note,
+  //   github: "https://github.com/AhmedMahmoudAbdelfatah/note-app",
+  //   live: "https://note-vite.vercel.app",
+  // },
 ] as const;
 
 export const skillsData = [
