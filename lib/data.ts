@@ -66,20 +66,11 @@ export const experiencesData = [
   },
   {
     title: "Front-end Developer",
-    location: "Freelancing",
-    description:
-      "I worked as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "Apr-2024 - Jul-2024",
-    teckStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    title: "Front-end Developer",
     location: "Booking From A To Z",
     description:
       "In my role at Booking from A to Z, I worked for over four months in an agile environment, following Scrum methodology. I developed the Thiqa and Best Clinic websites using Next.js, gaining extensive hands-on experience with agile practices, team collaboration, and advanced web development techniques. This experience strengthened my skills in delivering high-quality, scalable applications in dynamic settings.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Jul-2024 - Nov-2024",
+    icon: React.createElement(FaReact),
+    date: "Jul-2024 - Feb-2025",
     teckStack: [
       "Next.js",
       "TypeScript",
@@ -100,10 +91,32 @@ export const experiencesData = [
     title: "Front-end Developer",
     location: "Freelancing",
     description:
-      "I am currently working as a freelancer. My skill set includes React, Next.js, TypeScript, Tailwind CSS, Bootstrap, and Styled Components. I am open to full-time opportunities.",
+      "Performed system analysis to clarify business requirements across the software lifecycle. Met tight deadlines through effective time management and strategic planning.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb-2025 - Aug-2025",
+    teckStack: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Query",
+    ],
+  },
+  {
+    title: "Front-end Developer",
+    location: "ExpertEx",
+    description:
+      "Implemented new features and resolved UI responsiveness issues, improving overall user experience on Expertex.ai, a unified multimedia AI studio.",
     icon: React.createElement(FaReact),
-    date: "Nov-2024 - Present",
-    teckStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
+    date: "Aug-2025 - Present",
+    teckStack: [
+      "React.js",
+      "TypeScript",
+      "Matrial UI",
+      "Redux",
+      "React Query",
+      "Bootstrap",
+    ],
   },
 ] as const;
 
@@ -217,4 +230,5 @@ export const skillsData = [
   "Git & Github",
   "Design Patterns",
   "Node.js",
+  "Matrial UI",
 ] as const;

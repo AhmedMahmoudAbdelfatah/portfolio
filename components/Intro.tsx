@@ -61,7 +61,7 @@ const Intro = () => {
       >
         <span className="font-bold">Hello, I&apos;m Ahmed, </span>
         <span>
-          a <b>front-end developer</b> with over <strong>6 months</strong> of
+          a <b>front-end developer</b> with over <strong>1 year</strong> of
           experience.
         </span>{" "}
         I enjoy building <span className="italic">sites & apps</span>. My focus
